@@ -5,7 +5,6 @@ import {Test} from "forge-std/Test.sol";
 import {SimpleStorage} from "../src/SimpleStorage.sol";
 
 contract CounterTest is Test {
-
     // Creamos una variable capaz de guardar una referencia a un SimpleStorage
     SimpleStorage public simpleStorage;
 
@@ -15,14 +14,12 @@ contract CounterTest is Test {
     }
 
     function test_GuardarNumero() public {
-
         // Intentamos guardar un nuevo numero en la variable
         simpleStorage.guardarNumero(42);
 
         // Usamos el getter que se crea automaticamente por ser una variable public (simpleStorage.numero())
         // Comprobamos que el numero guardado en la variable coincide con el que le hemos querido poner
         assertEq(simpleStorage.numero(), 42);
-        
     }
 
     function test_NumeroInicial() public view {
