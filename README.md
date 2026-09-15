@@ -129,27 +129,27 @@ Contendrá la aplicación web que permitirá interactuar con los Smart Contracts
 * [x] Instalar Foundry
 * [x] Comprobar `forge`
 * [x] Comprobar `anvil`
-* [ ] Crear proyecto Foundry
-* [ ] Configurar estructura inicial
+* [x] Crear proyecto Foundry
+* [x] Configurar estructura inicial
 
 ### 🔵 Fase 1 — Fundamentos de Smart Contracts
 
-* [ ] Crear primer Smart Contract
-* [ ] Comprender variables de estado
-* [ ] Comprender funciones
+* [x] Crear primer Smart Contract
+* [x] Comprender variables de estado
+* [x] Comprender funciones
 * [ ] Comprender `msg.sender`
-* [ ] Comprender transacciones
-* [ ] Compilar contratos
-* [ ] Crear tests con Forge
-* [ ] Ejecutar tests correctamente
+* [x] Comprender transacciones
+* [x] Compilar contratos
+* [x] Crear tests con Forge
+* [x] Ejecutar tests correctamente
 
 ### 🟣 Fase 2 — Blockchain local
 
-* [ ] Levantar blockchain local con Anvil
-* [ ] Comprender cuentas y claves privadas
-* [ ] Desplegar un contrato en Anvil
-* [ ] Interactuar con el contrato mediante Cast
-* [ ] Realizar transacciones
+* [x] Levantar blockchain local con Anvil
+* [x] Comprender cuentas y claves privadas
+* [x] Desplegar un contrato en Anvil
+* [x] Interactuar con el contrato mediante Cast
+* [x] Realizar transacciones
 * [ ] Comprender gas y costes de ejecución
 
 ### 🟠 Fase 3 — Token ERC-20
